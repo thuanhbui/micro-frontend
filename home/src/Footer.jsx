@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="container">
                 <div className="footer-wrapper row ">
                     <div className="footer-intro col-lg-3 col-xl-3 col-md-6 col-sm-6">
-                        <h2 className="footer-heading">Nhà Sách Âm Dương</h2>
+                        <h2 className="footer-heading">Nhà Sách</h2>
                         <p className="footer-intro-desc">Chúng tôi là nhà sách được xây dựng từ lâu đời, đáp ứng nhu cầu
                             học hỏi của người dân trên khắp cả nước.</p>
                     </div>
