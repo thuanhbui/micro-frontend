@@ -1,0 +1,13 @@
+.book-container {
+    display: flex;
+}
+
+img {
+    display: block;
+    width: 300px;
+}
+
+.detail {
+    column-span: 2;
+    font-size: 14px;
+}
