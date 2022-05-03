@@ -12,9 +12,7 @@ export default function HomeContent() {
 
     useEffect(() => {
         getBooks().then(setBooks);
-    })
-
-    console.log(loggedIn)
+    }, [])
 
     return (
         <div className="main-product-list">
