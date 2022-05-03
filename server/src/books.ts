@@ -49,7 +49,7 @@ const books: Book[] = [
         name: 'Jammin Spinner',
         price: 6.99,
         description: 'Jammin this rainbow inspired spinner is so much fun!',
-        image: 'http://localhost:8080/book/book18.jpeg',
+        image: 'http://localhost:8080/book/book18.png',
         longDescription:
             'Built with a 3v high-speed motor, this fidget spinner is sure to be a crowd pleaser. From the center axis to the buttons on each of the three caps, enough space was left between the pieces for a kinetic chain reaction -- creating a hypnotizing, spinning flowchart. The customizable caps give you 11 unique options to choose from. Our "Jammin" spinner comes in a stylish white box with a velvet lining and includes our standard 90 day manufacturer\'s warranty.',
     },
@@ -85,7 +85,7 @@ const books: Book[] = [
         name: 'Gold and Silver Gears',
         price: 9.99,
         description: 'Sleek and beautiful, this spinner is so fast.',
-        image: 'http://localhost:8080/book/book18.jpeg',
+        image: 'http://localhost:8080/book/book18.png',
         longDescription:
             "The Gold and Silver Gears Fidget Spinner, by Gear Beast, is a steal of a deal on a super flashy fidget spinner. The body spins on high-quality stainless steel bearings, while the center piece is made from brass. It comes in a variety of colors, so no matter your style you're sure to find a fidget spinner you'll fall in love with.",
     },

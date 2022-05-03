@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import './index.scss';
 import { login, useLoggedIn } from "./cart";
 
 export default function Login() {
@@ -18,11 +18,11 @@ export default function Login() {
       </span>
             {showLogin && (
                 <div
-                    className="absolute p-5 border-4 border-blue-800 bg-white rounded-xl text-black"
+                    className="z-40 absolute p-5 border-4 border-blue-800 bg-white rounded-xl text-black"
                     style={{
                         width: 300,
-                        top: "2rem",
-                        left: -250,
+                        top: '100%',
+                        right: 0,  
                     }}
                 >
                     <input
@@ -39,7 +39,7 @@ export default function Login() {
                         className="border text-sm border-gray-400 p-2 rounded-md w-full mt-3"
                     />
                     <button
-                        className="bg-green-900 text-white py-2 px-5 rounded-md text-sm mt-5"
+                        className="bg-green-900 text-white py-2 px-5 rounded-md text-sm mt-5 block mx-auto"
                         onClick={() => login(username, password)}
                         id="loginbtn"
                     >

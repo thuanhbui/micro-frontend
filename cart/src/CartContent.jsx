@@ -13,11 +13,11 @@ export default function CartContent() {
 
     return (
         <>
-            <div className="my-10 grid grid-cols-4 gap-5">
+            <div className="my-10 grid grid-cols-4 gap-5 items-center text-base">
                 {items.map((item) => (
                     <React.Fragment key={item.id}>
                         <div>{item.quantity}</div>
-                        <img src={item.image} alt={item.name} className="max-h-6" />
+                        <img src={item.image} alt={item.name} className="max-h-40 object-contain" />
                         <div>{item.name}</div>
                         <div className="text-right">
                             {currency.format(item.quantity * item.price)}
@@ -28,7 +28,7 @@ export default function CartContent() {
                 <div></div>
                 <div></div>
                 <div className="text-right" id="grand_total">
-                    {currency.format(items.reduce((a, v) => a + v.quantity * v.price, 0))}
+                    Total: {currency.format(items.reduce((a, v) => a + v.quantity * v.price, 0))}
                 </div>
             </div>
             {items.length > 0 && (
