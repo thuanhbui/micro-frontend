@@ -45,6 +45,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         cart: "cart@http://localhost:3002/remoteEntry.js",
+        addtocart: "addtocart@http://localhost:3003/remoteEntry.js",
       },
       exposes: {
         "./AddToCart": "./src/AddToCart.jsx",
