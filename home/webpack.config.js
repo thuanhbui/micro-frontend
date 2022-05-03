@@ -54,6 +54,7 @@ module.exports = {
         "./books": "./src/books.js",
         "./HomeContent": "./src/HomeContent.jsx",
         "./MainLayout": "./src/MainLayout.jsx",
+        "place-my-order-assets":{eager: true, singleton:true, strictVersion: true},
       },
       shared: {
         ...deps,
