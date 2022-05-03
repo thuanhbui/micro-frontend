@@ -26,3 +26,10 @@ img {
     font-size: 18px;
     font-weight: bold;
 }
+
+.atc-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

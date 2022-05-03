@@ -1,5 +1,6 @@
 .book-container {
     display: flex;
+    padding: 50px;
 }
 
 img {
@@ -10,4 +11,12 @@ img {
 .detail {
     column-span: 2;
     font-size: 14px;
+}
+
+.atc {
+
+}
+
+.description {
+    margin-top: 30px;
 }

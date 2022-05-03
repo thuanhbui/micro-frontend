@@ -40,9 +40,11 @@ export default function BookDetail() {
                         {currency.format(book.price)}
                     </div>
                 </div>
-                {/*<div ref={addToCart}></div>*/}
-                <div>{book.description}</div>
-                <div>{book.longDescription}</div>
+                <div className="atc" ref={addToCart}></div>
+                <div className="description">
+                    <div>{book.description}</div>
+                    <div>{book.longDescription}</div>
+                </div>
             </div>
         </div>
     );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import MiniCart from "cart/MiniCart";
 import Login from "cart/Login";
@@ -11,10 +12,10 @@ export default function Header() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="/">Book Store</a>
+                        <Link className="nav-link" to="/">Book Store</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/cart">Link</a>
+                        <Link className="nav-link" to="/cart">Cart</Link>
                     </li>
                 </ul>
                 <div className="right-menu">

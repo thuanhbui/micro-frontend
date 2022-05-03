@@ -30,7 +30,7 @@ export default function HomeContent() {
                             </Link>
                         </div>
                         {loggedIn && (
-                            <div>
+                            <div className="atc-container">
                                 <button onClick={() => addToCart(book.id)}>
                                     Add to Cart
                                 </button>
